@@ -16,7 +16,7 @@ const Orders = () => {
       }
       try {
         const response = await axios.post(
-          "http://localhost:9000/api/order/get",
+          "https://foodappbackend-p61c.onrender.com/api/order/get",
           { userId: token },
           { headers: { token } }
         );

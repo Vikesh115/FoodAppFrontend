@@ -18,8 +18,8 @@ function Footer(props) {
                 <div className="footer-address">
                     <h5>Our Address</h5>
                     <address>
-                        GeeksforGeeks, Sector-137<br />
-                        Noida, Uttar Pradesh<br />
+                        Noida, Sector-137<br />
+                        Uttar Pradesh<br />
                         India<br />
                         <div><i className="fa fa-phone"></i> +91 1234 5678</div>
                         <div><i className="fa fa-fax"></i> +91 8765 4321</div>

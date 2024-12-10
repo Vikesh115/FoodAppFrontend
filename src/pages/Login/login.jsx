@@ -13,7 +13,7 @@ const Login = ({isLoggedIn, setIsLoggedIn }) => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:9000/api/user/login', {
+      const response = await fetch('https://foodappbackend-p61c.onrender.com/api/user/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(credentials)

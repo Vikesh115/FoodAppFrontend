@@ -27,7 +27,7 @@ const PlaceOrder = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:9000/api/order/place",
+        "https://foodappbackend-p61c.onrender.com/api/order/place",
         {
           userId: token, // Assuming `token` contains the user ID
           selectedItems,

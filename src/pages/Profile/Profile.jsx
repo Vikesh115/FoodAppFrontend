@@ -16,7 +16,7 @@ const Profile = () => {
           return;
         }
 
-        const response = await fetch("http://localhost:9000/api/user/profile", {
+        const response = await fetch("https://foodappbackend-p61c.onrender.com/api/user/profile", {
           method: "GET",
           headers: {
             Authorization: `Bearer ${token}`,

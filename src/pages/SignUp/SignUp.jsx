@@ -21,7 +21,7 @@ const Signup = ({ setIsLoggedIn }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:9000/api/user/register', {
+      const response = await fetch('https://foodappbackend-p61c.onrender.com/api/user/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'token1': "fhfhhhh" },
         body: JSON.stringify(formData)

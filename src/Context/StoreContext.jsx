@@ -6,7 +6,7 @@ import { Dishes } from "../shared/dishes"; // Assuming mock data is still needed
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = ({ children }) => {
-  const url = "http://localhost:9000"; // Your backend URL
+  const url = "https://foodappbackend-p61c.onrender.com"; // Your backend URL
 
   // State variables
   const [food_list, setFoodList] = useState([]);
